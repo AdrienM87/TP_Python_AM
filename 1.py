@@ -135,7 +135,16 @@ module1.PrintTest("Ed Nygma")
 for mod in dir(math):
     print(mod)
 
+#affichage des variables globales et locales
+globals()
+locals()
+
+# Affichage de tous les modules - très long
+#help('modules')
+
 ########################
+
+
 ########################
 ########################
 ########################
