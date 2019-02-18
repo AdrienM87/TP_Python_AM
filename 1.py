@@ -136,14 +136,20 @@ for mod in dir(math):
     print(mod)
 
 #affichage des variables globales et locales
-globals()
-locals()
+# globals()
+# locals()
 
 # Affichage de tous les modules - très long
 #help('modules')
 
-########################
 
+#######################
+#Création du du dossier Armors et de ses fichiers
+
+import Armors
+Armors.mark_I()
+Armors.mark_II()
+Armors.mark_III()
 
 ########################
 ########################
