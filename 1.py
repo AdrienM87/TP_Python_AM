@@ -9,6 +9,7 @@ ligne 3"""
 
 #doc sur une ligne
 
+
 ########################
 
 
@@ -19,6 +20,8 @@ a = b = c = 1
 print(a)
 print(b)
 print(c)
+
+########################
 
 #Assignation de variables
 chaine = "hello world"
@@ -32,4 +35,11 @@ print(miles)
 print(counter)
 print(name)
 
+########################
 
+#Travail sur les listes
+list = [ 'abcd', 123 , 1.23, 'efgh', 45.6 ]
+print (list)          # Prints complete list
+print (list[0])       # Prints first element of the list
+print (list[1:3])     # Prints elements starting from 2nd till 3rd 
+print (list[2:])      # Prints elements starting from 3rd element
