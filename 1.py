@@ -43,3 +43,27 @@ print (list)          # Prints complete list
 print (list[0])       # Prints first element of the list
 print (list[1:3])     # Prints elements starting from 2nd till 3rd 
 print (list[2:])      # Prints elements starting from 3rd element
+
+
+########################
+
+#Fonctions de conversion de variables
+"""
+int() , long(),float(),complex()
+str(), chr()
+Eval() --> to object
+tuple(), list(), set()
+dict()
+Unichr(),ord(),hex(),oct()
++,-,*,/
+%,**,// (mod / puissance et division)
+"""
+
+chaine = "123"
+nombre = int(chaine)    #chaine vers numérique
+
+chaine = str(456)   #numérique vers chaine
+print(chaine)
+
+print(str(458 % 4)) #modulo
+
