@@ -67,3 +67,27 @@ print(chaine)
 
 print(str(458 % 4)) #modulo
 
+
+########################
+
+#Importations de librairies, modules...Etc
+import sys
+import math
+
+print(str(math.cos(math.pi)))
+
+
+#Pour attendre une entrée utilisateur
+input()
+
+########################
+########################
+########################
+########################
+########################
+########################
+########################
+########################
+########################
+
+
