@@ -70,7 +70,7 @@ print(str(458 % 4)) #modulo
 
 ########################
 
-#Importations de librairies, modules...Etc
+#Importations de librairies
 import sys
 import math
 
@@ -122,6 +122,17 @@ def PrintTest(mot):
 #appel de la fonction
 PrintTest(mot)
 
+########################
+
+#imports et utilisation de module
+import module1
+module1.PrintTest("Ed Nygma")
+
+########################
+
+
+########################
+########################
 ########################
 ########################
 ########################
