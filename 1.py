@@ -102,9 +102,19 @@ print("End of file")
 
 ########################
 
+# conditions if
+totoIf = 50
+if(totoIf == 50): print ("totoIf")
 
 ########################
+
+#Iteration sur des lettres
+for letter in 'Python':
+    print(letter)
+    
 ########################
+
+
 ########################
 ########################
 ########################
