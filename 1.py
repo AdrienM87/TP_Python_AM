@@ -128,8 +128,12 @@ PrintTest(mot)
 import module1
 module1.PrintTest("Ed Nygma")
 
-########################
 
+########################
+#affichage du contenu du module
+
+for mod in dir(math):
+    print(mod)
 
 ########################
 ########################
