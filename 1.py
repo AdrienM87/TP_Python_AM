@@ -88,8 +88,21 @@ dict = {'Name': 'James Gordon', 'Age': 36, 'Class': 'Inspecteur'}
 print("dict['Name']:" , dict['Name'])
 print("dict['Age']:" , dict['Age'])
 
+
 ########################
+
+#lecture de fichier
+
+contenu = open("toto.txt")
+for line in contenu:
+    print(line)
+    if line.startswith('hola'):
+        print("hé ombre !")
+print("End of file")
+
 ########################
+
+
 ########################
 ########################
 ########################
