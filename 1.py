@@ -78,9 +78,16 @@ print(str(math.cos(math.pi)))
 
 
 #Pour attendre une entrée utilisateur
-input()
+#input()
+
 
 ########################
+
+#dictionary
+dict = {'Name': 'James Gordon', 'Age': 36, 'Class': 'Inspecteur'}
+print("dict['Name']:" , dict['Name'])
+print("dict['Age']:" , dict['Age'])
+
 ########################
 ########################
 ########################
