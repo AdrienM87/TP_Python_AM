@@ -109,11 +109,18 @@ if(totoIf == 50): print ("totoIf")
 ########################
 
 #Iteration sur des lettres
-for letter in 'Python':
+mot = 'Python'
+for letter in mot:
     print(letter)
     
 ########################
 
+# déclaration de fonction
+def PrintTest(mot):
+   print(mot)
+
+#appel de la fonction
+PrintTest(mot)
 
 ########################
 ########################
